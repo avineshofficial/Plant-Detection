@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# IDE configuration files
+.vscode/
+.idea/
+
+# Dataset folder (too large for GitHub)
+dataset/
+
+# User-uploaded images (we don't want to track these)
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Large model files (optional, but good practice)
+*.h5
